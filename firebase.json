@@ -1,0 +1,22 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "ldsw-proyecto-movies",
+                    "appId": "1:1065118438334:android:3033ca249a6af82176dfef",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "ldsw-proyecto-movies",
+                    "configurations": {
+                        "android": "1:1065118438334:android:3033ca249a6af82176dfef",
+                        "web": "1:1065118438334:web:fb98f72dbf7b0f9276dfef"
+                    }
+                }
+            }
+        }
+    }
+}

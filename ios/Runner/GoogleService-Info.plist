@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA6lAqPtllzMyzxRpWGR8T6zsM-DlYdG0c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1065118438334</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.ldswProyectoMovies</string>
+	<key>PROJECT_ID</key>
+	<string>ldsw-proyecto-movies</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ldsw-proyecto-movies.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1065118438334:ios:8349dd197343733676dfef</string>
+</dict>
+</plist>

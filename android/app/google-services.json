@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1065118438334",
+    "project_id": "ldsw-proyecto-movies",
+    "storage_bucket": "ldsw-proyecto-movies.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065118438334:android:3033ca249a6af82176dfef",
+        "android_client_info": {
+          "package_name": "com.example.ldsw_proyecto_movies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_unu9xOCoaw5c_RBw6vIMjZ5nHEm3JRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
