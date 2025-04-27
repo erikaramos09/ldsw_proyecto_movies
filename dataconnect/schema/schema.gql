@@ -1,0 +1,10 @@
+# Movies
+type Movie @table(name: "movie", key: "id") {
+  id: UUID! @col(name: "movie_id") @default(expr: "uuidV4()")
+  title: String!
+  year: Int
+  genre: String @col(dataType: "varchar(20)")
+  imageUrl: String!
+  rating: Int @default(value: 0)
+  description: String
+}

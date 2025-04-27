@@ -1,0 +1,6 @@
+connectorId: movies
+connectorVersion: 1
+generate:
+  dartSdk:
+    outputDir: ../../lib/graphql/generated
+    package: movies

@@ -1,0 +1,23 @@
+# @auth() directives control who can call each operation.
+# Anyone should be able to list all movies, so the auth level is set to PUBLIC
+query ListMovies @auth(level: PUBLIC) {
+  movies {
+    id
+    year
+    title
+    imageUrl
+    rating
+  }
+}
+
+query GetMovie ($movieId: Movie_Key!) @auth(level: PUBLIC) {
+  movie(key: $movieId) {
+    id
+    year
+    title
+    imageUrl
+    rating
+    genre
+    description
+  }
+}

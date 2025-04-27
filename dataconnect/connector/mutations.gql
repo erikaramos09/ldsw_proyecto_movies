@@ -1,0 +1,41 @@
+mutation CreateMovie(
+    $title: String!,
+    $year: Int!,
+    $genre: String!,
+    $imageUrl: String!,
+    $rating: Int,
+    $description: String,
+    ) @auth(level: PUBLIC)  {
+  movie_insert(data: {
+    title: $title
+    year: $year
+    genre: $genre
+    imageUrl:$imageUrl
+    rating: $rating
+    description: $description
+  })
+}
+
+mutation UpdateMovie(
+    $id: UUID!,
+    $title: String!,
+    $year: Int!,
+    $genre: String!,
+    $imageUrl: String!,
+    $rating: Int!,
+    $description: String!,
+    ) @auth(level: PUBLIC) {
+  movie_update(id: $id, data: {
+    title: $title
+    year: $year
+    genre: $genre
+    imageUrl:$imageUrl
+    rating: $rating
+    description: $description
+  })
+}
+
+# Delete by key
+mutation DeleteMovie($id: UUID!) @auth(level: PUBLIC)  {
+  movie_delete(id: $id)
+}
